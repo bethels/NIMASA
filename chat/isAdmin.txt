@@ -1,0 +1,27 @@
+<?php
+/**
+ * Checks if the logged-in user has Admin privileges.
+ * @param mysqli $conn The database connection object.
+ * @param string $email The email address to check.
+ * @return bool True if admin, False otherwise.
+ */
+function is_admin($conn, $email) {
+    if (empty($email)) return false;
+
+    $sql = "SELECT file_path FROM nimdat WHERE email = ? LIMIT 1";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("s", $email);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    
+    if ($row = $result->fetch_assoc()) {
+        $role = $row['file_path'];
+        // Check for both admin types you mentioned
+        if ($role === 'admin_admin' || $role === 'admin_admin_dir') {
+            return true;
+        }
+    }
+    
+    return false;
+}
+?>

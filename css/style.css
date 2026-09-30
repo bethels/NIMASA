@@ -1,0 +1,620 @@
+body{
+background-color: rgb(50,50,50);
+background-image: url("../images/background.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.jaba{
+position: relative;
+top:7%;	
+
+height: 70vh;
+
+	
+}
+
+
+
+.portal1{
+background-color: rgba(255,255,255,0.5);
+width: 28vw;
+height: 100vh;
+position: absolute;
+top: 0vh;
+left: 1vw;
+border-radius: 2%;
+box-shadow: 0px 0px 50px rgba(0,0,0,0.8);
+backdrop-filter: blur(20px);
+
+}
+
+
+
+
+
+
+
+.portal2{
+background-color: rgba(255,255,255,0.5);
+backdrop-filter: blur(20px);
+width: 70vw;
+height: 94vh;
+position: absolute;
+top: 0vh;
+left: 29.5vw;
+border-radius: 1%;
+box-shadow:  0px 0px 30px rgba(0,0,0,1);
+overflow: hidden
+}
+
+.subportal{
+background-color: rgba(90,90,90,0.3);
+background-image: url("../images/blur.png");
+background-repeat: no-repeat;
+background-size: cover;
+width: 60vw;
+height: 94vh;
+position: absolute;
+border-radius: 4%;
+opacity: 0.28;
+}
+
+
+
+
+.middle{
+max-width:50%;
+max-height: 50%;
+object-fit: contain;
+}
+
+.BoldFont{
+	
+font-size: 24px;
+font-weight: 900;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,100);
+
+	
+}
+
+.BoldFont1{
+	
+font-size: 27px;
+font-weight: 900;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,150);
+
+	
+}
+
+.button1{
+background-color: rgb(50,57,240);
+
+width: 20vw;
+height: 8vh;
+position: relative;
+top: 3vh;
+left: 2vw;
+border-radius: 1.5vw ;
+border-color: rgba(0,0,0,0);
+box-shadow: 0px 0px 20px rgba(0,0,0,1);
+color: white;
+font-size: 16px;
+font-weight: 600;
+font-family: arial;
+	
+}
+
+.button1:hover{
+background-color: rgb(20,27,100);
+	
+}
+
+.rounder{
+background-color: rgba(250,250,250,0.3);
+backdrop-filter: blur(10px);
+width: 24vw;
+height: 25vh;
+position: relative;
+top: -2vh;
+left: 2vw;
+border-radius: 1.5vw ;
+border-color: rgba(0,0,0,0);
+box-shadow: 0px 0px 20px rgba(0,0,0,1);
+color: white;
+font-size: 16px;
+font-weight: 600;
+font-family: arial;
+	
+}
+
+.shift{
+	
+position: relative;
+top:4vh;	
+
+	
+}
+
+
+.button2{
+background-color: rgb(20,120,60);
+
+width: 20vw;
+height: 8vh;
+position: relative;
+top: 3vh;
+left: 2vw;
+border-radius: 1.5vw ;
+border-color: rgba(0,0,0,0);
+box-shadow: 0px 0px 20px rgba(0,0,0,1);
+color: white;
+font-size: 16px;
+font-weight: 600;
+font-family: arial;
+	
+}
+
+.button2:hover{
+background-color: rgb(20,50,20);
+	
+}
+
+
+
+.button22{
+background-color: rgb(255,20,60);
+
+width: 20vw;
+height: 8vh;
+position: relative;
+top: 3vh;
+left: 2vw;
+border-radius: 1.5vw ;
+border-color: rgba(0,0,0,0);
+box-shadow: 0px 0px 20px rgba(0,0,0,1);
+color: white;
+font-size: 16px;
+font-weight: 600;
+font-family: arial;
+	
+}
+
+.button22:hover{
+background-color: rgb(50,20,20);
+	
+}
+
+
+.button4{
+background-color: rgb(180,80,20);
+
+width: 13vw;
+height: 8vh;
+position: relative;
+top: -10vh;
+left: 5vw;
+border-radius: 1.5vw ;
+border-color: rgba(0,0,0,0);
+box-shadow: 0px 0px 20px rgba(0,0,0,1);
+color: white;
+font-size: 16px;
+font-weight: 600;
+font-family: arial;
+	
+}
+
+.button4:hover{
+background-color: rgb(50,60,20);
+	
+}
+
+
+
+.card{
+background-color: rgba(250,250,250,0.4);
+backdrop-filter: blur(5px);
+width: 18vw;
+height: 50vh;
+position: relative;
+top: 7vh;
+left: 2vw;
+border-radius: 4%;
+box-shadow:  0px 0px 50px rgba(0,0,0,0.8);
+border: none;
+overflow: hidden;
+text-decoration:none;
+}
+
+.noue{
+text-decoration:none;
+}
+
+.card:hover{
+background-color: rgba(70,100,250,0.5);
+	
+}
+
+.circleimg{
+	
+background-color: rgb(250,250,250);
+
+width: 8vw;
+height: 8vw;
+position: relative;
+top: 5vh;
+left: 4.5vw;
+border-radius: 40vw;
+box-shadow:  0px 0px 50px rgba(0,0,0,1),0px 0px 50px rgba(0,0,0,1);
+overflow: hidden;
+
+}
+
+.fonter{
+position: relative;
+top: 1vh;	
+color: black;
+font-size: 14px;
+font-weight: 300;
+font-family: Berlin Sans FB,arial;
+line-height: 1.7;
+
+	
+}
+
+.fonter12{
+position: relative;
+top: 1vh;	
+color: white;
+font-size: 20px;
+font-weight: 400;
+font-family: Berlin Sans FB,arial;
+line-height: 1.7;
+
+	
+}
+
+.cardhead{
+background-color: rgb(50,57,240);
+width: 18.3vw;
+height: 7vh;
+position: relative;
+top: -1.2vh;
+left: -0.35vw;
+border-radius: 4%;
+box-shadow:  0px 0px 50px rgba(0,0,0,0.8);
+border: none;	
+
+	
+}
+
+.adjust0{
+position: absolute;
+left: 1vw;
+top: 10vh;
+	
+}
+
+.adjust{
+position: absolute;
+left: 23.5vw;
+top: 10vh;
+	
+}
+
+.adjust1{
+position: absolute;
+left: 47vw;
+top: 10vh;
+	
+}
+
+
+.footer{
+background-color: rgba(255,255,255,0.3);
+
+width: 70vw;
+height: 26vh;
+position: absolute;
+top: 74vh;
+left: 0;
+border-radius: 1%;
+box-shadow:  0px 0px 50px rgba(0,0,0,1);
+
+}
+
+.fonter1{
+position: relative;
+top: 1vh;	
+color: rgb(0,0,100);
+font-size: 18px;
+font-weight: 300;
+font-family: Berlin Sans FB,arial;
+line-height: 1.7;
+text-decoration:none;
+	
+}
+
+.bottom{
+background-color: rgb(50,57,240);
+
+width: 70vw;
+height: 5vh;
+position: absolute;
+top: 94.5vh;
+left: 29.5vw;
+border-radius: 1%;
+box-shadow:  0px 0px 50px rgba(0,0,0,1);
+
+}
+
+
+.circleimg1{
+	
+background-color: rgb(255,255,255);
+
+width: 5.5vw;
+height: 5.5vw;
+position: absolute;
+top: 3vh;
+left: 52vw;
+border-radius: 40vw;
+box-shadow:  0px 0px 50px rgba(0,0,0,1),0px 0px 50px rgba(0,0,0,1);
+overflow: hidden;
+
+}
+
+.circleimg1:hover{
+	background-color: rgb(150,150,150);
+}
+
+
+.BoldFont2{
+	
+font-size: 16px;
+font-weight: 600;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: white;
+position:relative;
+top:1vh;
+	
+}
+
+
+
+
+.circleimg2{
+	
+background-color: rgb(255,255,255);
+
+width: 3vw;
+height: 3vw;
+position: absolute;
+top: 1%;
+left: 94%;
+border-radius: 40vw;
+box-shadow:  0px 0px 20px rgba(0,0,0,1);
+overflow: hidden;
+
+}
+
+.circleimg2:hover{
+	background-color: rgb(150,150,150);
+}
+
+
+.username{
+	
+position:absolute;
+top:-1%;
+left:82%;
+height: 55px;
+width: 12.2%;
+overflow: hidden;
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+
+.jaba{
+position: relative;
+top:7%;	
+
+height: 250px;
+
+	
+}	
+	
+.portal1{
+background-color: rgba(255,255,255,0.8);	
+position: relative;
+width:100vw;
+height:auto;
+padding: 0px 0px  30px 0px;
+left:0px;
+top:0px;
+backdrop-filter: blur(1px);
+	
+}
+
+
+
+
+.portal2{
+width: 100vw;
+height: auto;
+position: relative;
+left:0px;
+top:20px;
+backdrop-filter: blur(1px);
+background-color: rgba(255,255,255,0.8);
+}
+	
+	
+	
+	
+.rounder{
+background-color: rgba(250,250,250,0.3);
+width: 80%;
+height: 160px;
+position: relative;
+top:6px;
+left:10%;
+backdrop-filter: blur(5px);
+border-radius: 4vw ;
+	
+}
+
+
+.bottom{
+width: 95vw;
+height: auto;
+position: relative;
+top: auto;
+left: auto;
+padding:10px;
+
+}
+
+
+
+
+
+
+
+
+.button1{
+width: 80%;
+height: 50px;
+position: relative;
+top: 15px;
+left: 10%;
+	
+border-radius: 4vw ;
+}
+
+
+
+.button2{
+width: 80%;
+height: 50px;
+position: relative;
+top: 8px;
+left: 10%;
+border-radius: 4vw ;
+	
+}
+
+
+
+.card{
+width: 80vw;
+height: 330px;
+position: relative;
+top: 80px;
+left: 10%;
+}
+
+
+
+.adjust0{
+position: relative;
+left: 0px;
+top: 0px;
+	
+}
+
+.adjust{
+position: relative;
+left: 0px;
+top: 20px;
+	
+}
+
+.adjust1{
+position: relative;
+left: 0px;
+top: 40px;
+	
+}
+
+
+.cardhead{
+width: 105%;
+height: 40px;
+position: relative;
+top: -1.2vh;
+left: -0.35vw;	
+
+	
+}
+
+
+.footer{
+width: 100%;
+height: 300px;
+position: relative;
+top: 150px;
+left: 0;
+
+
+}
+
+
+
+.circleimg{
+	
+
+width: 35%;
+height: 35%;
+position: relative;
+top: 5px;
+left: 32.5%;
+
+}
+
+	
+	
+	
+.fonter1{
+position: relative;
+top: 1vh;	
+color: rgb(0,0,100);
+font-size: 16.5px;
+font-weight: 300;
+font-family: Berlin Sans FB,arial;
+line-height: 1.7;
+text-decoration:none;
+left: -20px;
+	
+}
+
+
+}
+
+
+
+
+.grayed-out {
+  filter: grayscale(100%);
+  opacity: 0.5; /* Makes it look faded */
+  pointer-events: none; /* Prevents users from clicking links/buttons inside */
+}

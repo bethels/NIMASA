@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<head>
+<title>NIMASA Cabotage waiver: BAREBOAT CHARTERED</title>
+<link rel="stylesheet" href="../css/style2.css">
+<meta name="viewport" content="width=device-width" initial-scale="1.0">
+
+
+</head>
+
+<html>
+<body>
+
+
+<input type="file" id="fileInput" accept=".pdf,.doc,.docx" style="display:none">
+
+<div class="blocky"> 
+
+<div class="formspace">
+
+<center>
+<div class="blueheader">
+<p class="BoldFont0"><br/>NIMASA|Nigerian Maritime Administration and Safety Agency
+<br/><pre> </pre></p>
+</div>
+<br/>
+<img src="../images/logo.png" style="width: 10vw; ">
+<center class="BoldFont">
+CABOTAGE CHECKLIST FOR PROCESSING OF WAIVER APPLICATION<br/>
+VESSEL CATEGORY: BAREBOAT CHARTERED
+</center>
+<br/><br/>
+
+</center>
+<div class="restrita">
+<p class="BoldFont1">NAME OF COMPANY/AGENT  <input class="edits"> <br/> </p>
+
+<p class="BoldFont1">NAME OF VESSEL:MT/MV  <input class="edits"> <br/> </p>
+
+<p class="BoldFont1">TYPE OF VESSEL   <input class="edits"> <br/> </p>
+
+<p class="BoldFont1">GRT   <input class="edits"> <br/> </p>
+
+<p class="BoldFont1">VESSEL REGISTRATION STATUS   <input class="edits"> <br/> </p>
+</div>
+<br/>
+<div class="blueline">
+<p class="BoldFont2">UPLOAD DOCUMENTS</p>
+ </div>
+ <br/>
+ <!--
+ <p class="BoldFont1">Cabotage Waiver Application Form (CWAF):  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="CWF"></span>
+ <button class="uploads" onclick="openFilePicker()">upload</button> 
+ <button class="removes" onclick="RemoveFile()">remove</button> <br/></p>
+-->
+
+<p class="BoldFont1">Cabotage Affidavit Form (CAF) (Signed and Stamped by the Federal High Court):  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="CAF"></span>
+ <button class="uploads" onclick="OpenCAF()">upload</button> 
+ <button class="removes" onclick="RemoveCAF()">remove</button> <br/></p>
+
+
+
+<p class="BoldFont1">Application to participate in Cabotage Trade Form(Signed and Stamped by the Federal High Court):  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="BOS"></span>
+ <button class="uploads" onclick="OpenBOS()">upload</button> 
+ <button class="removes" onclick="RemoveBOS()">remove</button> <br/></p>
+
+
+
+<p class="BoldFont1">Bill of Sale or Evidence of Ownership or Copy of Nigeria Ship Registry Certificate:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="EOCNSRC"></span>
+
+ <button class="uploads" onclick="OpenEOCNSRC()">upload</button> 
+ <button class="removes" onclick="RemoveEOCNSRC()">remove</button> <br/></p>
+
+
+
+
+
+
+
+<p class="BoldFont1">Crew List Declaration Form (Signed and Stamped by the Federal High Court):  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="BC"></span>
+ <button class="uploads" onclick="openBC()">upload</button> 
+ <button class="removes" onclick="RemoveBC()">remove</button> <br/></p>
+
+
+
+
+<p class="BoldFont1">Declaration of Ownership Form (Signed and Stamped by the Federal High Court):  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+ <span class="UploadData" id="ATPICTF"></span>
+ <button class="uploads" onclick="openATPICTF()">upload</button> 
+ <button class="removes" onclick="RemoveATPICTF()">remove</button> <br/></p>
+
+
+
+
+<p class="BoldFont1">Detailed Crew list written on the company’s letter head paper (Duly signed, stamped and dated by the Master)
+<span class="UploadData" id="CLDF"></span>
+ <button class="uploads" onclick="openCLDF()">upload</button> 
+ <button class="removes" onclick="RemoveCLDF()">remove</button> <br/></p>
+
+
+
+
+<p class="BoldFont1">Copy of Minimum Safe Manning Certificate (SMC):  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="DOF"></span>
+ <button class="uploads" onclick="openDOF()">upload</button> 
+ <button class="removes" onclick="RemoveDOF()">remove</button> <br/></p>
+
+
+
+
+<p class="BoldFont1">Completed Maritime Labour Declaration Form:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="DCLWOTCLHP"></span>
+ <button class="uploads" onclick="openDCLWOTCLHP()">upload</button> 
+ <button class="removes" onclick="RemoveDCLWOTCLHP()">remove</button> <br/></p>
+
+
+
+<p class="BoldFont1">CAC (2) & CAC(7) specifying a share capital of not less than =&#8358;=25M:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="DOE"></span>
+ <button class="uploads" onclick="openDOE()">upload</button> 
+ <button class="removes" onclick="RemoveDOE()">remove</button> <br/></p>
+
+
+
+
+<p class="BoldFont1">Copy of Certificate of Incorporation:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="CMSMC"></span>
+ <button class="uploads" onclick="openCMSMC()">upload</button> 
+ <button class="removes" onclick="RemoveCMSMC()">remove</button> <br/></p>
+
+
+
+
+<p class="BoldFont1">Memorandum and Articles of Association:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="CMLDF"></span>
+ <button class="uploads" onclick="openCMLDF()">upload</button> 
+ <button class="removes" onclick="RemoveCMLDF()">remove</button> <br/></p>
+
+
+
+<br/><br/>
+
+<center>
+<a href="bareboatcabotage2.html"><button class="savecontinue">Save and Continue</button></a>
+<br/>
+<br/>
+&nbsp
+
+</center>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+<script src="../JS/bareboatCabotage.js"></script>
+</body>
+</html>

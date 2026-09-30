@@ -1,0 +1,498 @@
+body{
+background-color: rgb(50,50,50);
+background-image: url("../images/background.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.BoldFont2{
+	
+font-size: 18px;
+font-weight: 600;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: white;
+position:relative;
+top:1vh;
+	
+}
+
+
+.bottom{
+background-color: rgb(50,57,240);
+
+width: 100vw;
+height: 5vh;
+position: absolute;
+top: 94.5vh;
+left: 0vw;
+border-radius: 1%;
+box-shadow:  0px 0px 50px rgba(0,0,0,1);
+
+}
+
+.portal2{
+background-color: rgba(255,255,255,0.5);
+backdrop-filter: blur(20px);
+width: 98vw;
+height: 83vh;
+position: absolute;
+top: 10.5vh;
+left: 1vw;
+border-radius: 1vw;
+box-shadow:  0px 0px 5px rgba(0,0,0,1);
+overflow: hidden;
+}
+
+
+.topper{
+background-color: rgb(50,57,240);
+
+width: 100vw;
+height: 10vh;
+position: absolute;
+top: 0vh;
+left: 0vw;
+border-radius: 1%;
+box-shadow:  0px 0px 50px rgba(0,0,0,1);
+display: inline-block;
+
+}
+
+
+.BoldFont{
+	
+font-size: 26px;
+font-weight: 800;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: rgb(255,255,250);
+position:relative;
+top:-3vh;
+	
+}
+
+.jaba{
+position: relative;
+top:7%;	
+
+height: 70vh;
+
+	
+}
+
+
+.middle{
+max-width:115%;
+max-height: 115%;
+object-fit: contain;
+display: inline-block;
+}
+
+
+
+.circleimg1{
+	
+background-color: rgb(255,255,255);
+
+width: 9vh;
+height: 9vh;
+top:-0.4vh;
+position: relative;
+border-radius: 40vw;
+box-shadow:  0px 0px 5px rgba(0,0,0,1);
+overflow: hidden;
+display: inline-block;
+
+}
+
+.circleimg1:hover{
+	background-color: rgb(150,150,150);
+}
+
+
+.BoldFont1{
+	
+font-size: 25px;
+font-weight: 400;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,150);
+
+	
+}
+
+
+
+
+.card{
+background-color: rgba(250,250,250,0.4);
+backdrop-filter: blur(5px);
+width: 18vw;
+height: 50vh;
+position: relative;
+top: 7vh;
+left: 2vw;
+border-radius: 4%;
+box-shadow:  0px 0px 50px rgba(0,0,0,0.8);
+border: none;
+overflow: hidden;
+text-decoration:none;
+}
+
+
+.card:hover{
+background-color: rgba(70,100,250,0.5);
+	
+}
+
+
+.fonter12{
+position: relative;
+top: 1vh;	
+color: white;
+font-size: 18px;
+font-weight: 400;
+font-family: Berlin Sans FB,arial;
+line-height: 1.7;
+
+	
+}
+
+
+
+.fonter{
+position: relative;
+top: 1vh;	
+color: black;
+font-size: 15px;
+font-weight: 300;
+font-family: Berlin Sans FB,arial;
+line-height: 1.7;
+
+	
+}
+
+
+
+.adjust0{
+position: absolute;
+left: 4.75vw;
+top: 13vh;
+	
+}
+
+.adjust{
+position: absolute;
+left: 27.25vw;
+top: 13vh;
+	
+}
+
+.adjust1{
+position: absolute;
+left: 49.75vw;
+top: 13vh;
+	
+}
+
+
+.adjust2{
+position: absolute;
+left: 72.25vw;
+top: 13vh;
+	
+}
+
+.circleimg{
+	
+background-color: rgb(250,250,250);
+
+width: 8vw;
+height: 8vw;
+position: relative;
+top: 5vh;
+left: 4.5vw;
+border-radius: 40vw;
+box-shadow:  0px 0px 50px rgba(0,0,0,1),0px 0px 50px rgba(0,0,0,1);
+overflow: hidden;
+
+}
+
+.noue{
+text-decoration:none;
+}
+
+
+.cardhead{
+background-color: rgb(50,57,240);
+width: 18.3vw;
+height: 7vh;
+position: relative;
+top: -1.2vh;
+left: -0.35vw;
+border-radius: 4%;
+box-shadow:  0px 0px 50px rgba(0,0,0,0.8);
+border: none;	
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+	
+	
+body{
+background-color: rgb(50,50,50);
+background-image: url("../images/background.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.BoldFont2{
+	
+font-size: 14px;
+font-weight: 600;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: white;
+position:relative;
+top:1vh;
+	
+}
+
+
+.bottom{
+background-color: rgb(50,57,240);
+
+width: 100vw;
+height: 5vh;
+position: absolute;
+top: 94.5vh;
+left: 0vw;
+border-radius: 1%;
+box-shadow:  0px 0px 50px rgba(0,0,0,1);
+
+}
+
+.portal2{
+background-color: rgba(255,255,255,0.8);
+backdrop-filter: blur(5px);
+width: 98vw;
+height: 83vh;
+position: absolute;
+top: 10.5vh;
+left: 1vw;
+border-radius: 1vw;
+box-shadow:  0px 0px 5px rgba(0,0,0,1);
+overflow: auto;
+
+}
+
+
+.topper{
+background-color: rgb(50,57,240);
+
+width: 100vw;
+height: 10vh;
+position: absolute;
+top: 0vh;
+left: 0vw;
+border-radius: 1%;
+box-shadow:  0px 0px 50px rgba(0,0,0,1);
+display: inline-block;
+
+}
+
+
+.BoldFont{
+	
+font-size: 15px;
+font-weight: 800;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: rgb(255,255,250);
+position:relative;
+top:-3vh;
+	
+}
+
+.jaba{
+position: relative;
+top:7%;	
+left:0%;
+height: 70vh;
+text-align:none;
+
+	
+}
+
+
+.middle{
+max-width:115%;
+max-height: 115%;
+object-fit: contain;
+display: inline-block;
+}
+
+
+
+.circleimg1{
+	
+background-color: rgb(255,255,255);
+
+width: 7vh;
+height: 7vh;
+top:-0.4vh;
+position: relative;
+border-radius: 40vw;
+box-shadow:  0px 0px 5px rgba(0,0,0,1);
+overflow: hidden;
+display: inline-block;
+
+}
+
+.circleimg1:hover{
+	background-color: rgb(150,150,150);
+}
+
+
+.BoldFont1{
+	
+font-size: 25px;
+font-weight: 400;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,150);
+
+	
+}
+
+
+
+
+.card{
+background-color: rgba(250,250,250,0.4);
+backdrop-filter: blur(1px);
+width: 85vw;
+height: 50vh;
+position: relative;
+top: 7vh;
+left: 2vw;
+border-radius: 4%;
+box-shadow:  0px 0px 50px rgba(0,0,0,0.8);
+border: none;
+overflow: hidden;
+text-decoration:none;
+}
+
+
+.card:hover{
+background-color: rgba(70,100,250,0.5);
+	
+}
+
+
+.fonter12{
+position: relative;
+top: 1vh;	
+color: white;
+font-size: 18px;
+font-weight: 400;
+font-family: Berlin Sans FB,arial;
+line-height: 1.7;
+
+	
+}
+
+
+
+.fonter{
+position: relative;
+top: 1vh;	
+color: black;
+font-size: 15px;
+font-weight: 300;
+font-family: Berlin Sans FB,arial;
+line-height: 1.7;
+
+	
+}
+
+
+
+.adjust0{
+position: relative;
+left: 4.75vw;
+top: 1vh;
+	
+}
+
+.adjust{
+position: relative;
+left: 4.75vw;
+top: 3vh;
+	
+}
+
+.adjust1{
+position: relative;
+left: 4.75vw;
+top: 6vh;
+	
+}
+
+
+.adjust2{
+position: relative;
+left: 4.75vw;
+top: 9vh;
+	
+}
+
+.circleimg{
+	
+background-color: rgb(250,250,250);
+
+width: 40%;
+height: auto;
+position: relative;
+top: 1vh;
+left: 30%;
+border-radius: 40vw;
+box-shadow:  0px 0px 20px rgba(0,0,0,1);
+overflow: hidden;
+
+}
+
+.noue{
+text-decoration:none;
+}
+
+
+.cardhead{
+background-color: rgb(50,57,240);
+width: 105%;
+height: 7vh;
+position: relative;
+top: -1.2vh;
+left: -0.35vw;
+border-radius: 4%;
+box-shadow:  0px 0px 50px rgba(0,0,0,0.8);
+border: none;	
+
+	
+}
+	
+	
+}

@@ -1,0 +1,889 @@
+body{
+background-color: rgb(50,50,50);
+background-image: url("../images/background.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.BoldFont2{
+	
+font-size: 18px;
+font-weight: 600;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: white;
+position:relative;
+top:1vh;
+	
+}
+
+
+.bottom{
+background-color: rgb(50,57,240);
+
+width: 100vw;
+height: 5vh;
+position: absolute;
+top: 94.5vh;
+left: 0vw;
+border-radius: 1%;
+box-shadow:  0px 0px 50px rgba(0,0,0,1);
+
+}
+
+.portal2{
+background-color: rgba(255,255,255,0.5);
+backdrop-filter: blur(20px);
+width: 98vw;
+height: 84vh;
+position: absolute;
+top: 10.5vh;
+left: 1vw;
+border-radius: 1vw;
+box-shadow:  0px 0px 5px rgba(0,0,0,1);
+overflow: hidden;
+}
+
+
+.topper{
+background-color: rgb(50,57,240);
+
+width: 100vw;
+height: 10vh;
+position: absolute;
+top: 0vh;
+left: 0vw;
+border-radius: 1%;
+box-shadow:  0px 0px 50px rgba(0,0,0,1);
+display: inline-block;
+
+}
+
+
+.BoldFont{
+	
+font-size: 26px;
+font-weight: 800;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: rgb(255,255,250);
+position:relative;
+top:-3vh;
+	
+}
+
+.jaba{
+position: relative;
+top:7%;	
+
+height: 70vh;
+
+	
+}
+
+
+.middle{
+max-width:115%;
+max-height: 115%;
+object-fit: contain;
+display: inline-block;
+}
+
+
+
+.circleimg1{
+	
+background-color: rgb(255,255,255);
+
+width: 9vh;
+height: 9vh;
+top:-0.4vh;
+position: relative;
+border-radius: 40vw;
+box-shadow:  0px 0px 5px rgba(0,0,0,1);
+overflow: hidden;
+display: inline-block;
+
+}
+
+.circleimg1:hover{
+	background-color: rgb(150,150,150);
+}
+
+
+.BoldFont1{
+	
+font-size: 20px;
+font-weight: 600;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,150);
+
+	
+}
+
+
+
+
+.card{
+background-color: rgba(250,250,250,0.4);
+backdrop-filter: blur(5px);
+width: 18vw;
+height: 50vh;
+position: relative;
+top: 7vh;
+left: 2vw;
+border-radius: 4%;
+box-shadow:  0px 0px 50px rgba(0,0,0,0.8);
+border: none;
+overflow: hidden;
+text-decoration:none;
+}
+
+
+.card:hover{
+background-color: rgba(70,100,250,0.5);
+	
+}
+
+
+.fonter12{
+position: relative;
+top: 1vh;	
+color: white;
+font-size: 14px;
+font-weight: 400;
+font-family: Berlin Sans FB,arial;
+line-height: 1.7;
+
+	
+}
+
+
+
+.fonter{
+position: relative;
+top: 1vh;	
+color: black;
+font-size: 1vw;
+font-weight: 300;
+font-family: Berlin Sans FB,arial;
+line-height: 1.7;
+
+	
+}
+
+
+
+.adjust0{
+position: absolute;
+left: 4.75vw;
+top: 13vh;
+	
+}
+
+.adjust{
+position: absolute;
+left: 27.25vw;
+top: 13vh;
+	
+}
+
+.adjust1{
+position: absolute;
+left: 49.75vw;
+top: 13vh;
+	
+}
+
+
+.adjust2{
+position: absolute;
+left: 72.25vw;
+top: 13vh;
+	
+}
+
+.circleimg{
+	
+background-color: rgb(250,250,250);
+
+width: 8vw;
+height: 8vw;
+position: relative;
+top: 5vh;
+left: 4.5vw;
+border-radius: 40vw;
+box-shadow:  0px 0px 50px rgba(0,0,0,1),0px 0px 50px rgba(0,0,0,1);
+overflow: hidden;
+
+}
+
+.noue{
+text-decoration:none;
+}
+
+
+.cardhead{
+background-color: rgb(50,57,240);
+width: 18.3vw;
+height: 7vh;
+position: relative;
+top: -1.2vh;
+left: -0.35vw;
+border-radius: 4%;
+box-shadow:  0px 0px 50px rgba(0,0,0,0.8);
+border: none;	
+
+	
+}
+
+
+
+
+
+.summary{
+background-color: rgba(255,255,255,0.5);
+backdrop-filter: blur(2px);
+width: 64vw;
+height: 69vh;
+position: absolute;
+top: 14vh;
+left: 1vw;
+border-radius: 1vw;
+box-shadow:  0px 0px 5px rgba(0,0,0,1);
+overflow: auto;
+
+
+
+
+	
+font-size: 14px;
+font-weight: 400;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,150);
+
+	
+}
+
+
+
+.summary1{
+
+font-size: 14px;
+font-weight: 400;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,150);
+
+	
+}
+
+.push{
+	
+position:relative;
+left: 10px;
+	
+}
+
+
+.payment{
+	
+background-color: rgba(255,255,255,0.5);
+backdrop-filter: blur(2px);
+width: 30vw;
+height: 69vh;
+position: absolute;
+top: 14vh;
+left: 67vw;
+border-radius: 1vw;
+box-shadow:  0px 0px 5px rgba(0,0,0,1);
+overflow: auto;
+
+
+	
+font-size: 20px;
+font-weight: 400;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,150);
+
+	
+	
+}
+
+
+.biggerFont{
+	
+font-size: 28px;
+font-weight: 700;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: white;
+
+padding: 10px;
+
+background-color: rgb(50,57,240);
+	
+}
+
+
+
+.checkContainer{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+    gap:8px;
+	position:relative;
+	left: 2.5vw;
+
+	
+background-color: rgba(50,57,240,0.5);
+width: 26vw;
+height: 6vh;
+position: relative;
+top: 0vh;
+left: 2vw;
+border-radius: 4vw;
+box-shadow:  0px 0px 5px rgba(0,0,0,0.8);
+border: none;
+overflow: hidden;
+text-decoration:none;
+}
+
+.checkContainer input{
+    display:none;
+}
+
+
+.checkContainer input:checked + .customCheck{
+    background:#0A4FAF;
+	
+}
+
+.checkContainer input:checked + .customCheck::after{
+    content:"\2714";
+    color:white;
+    position:absolute;
+     font-size:18px;
+    left:3px;
+    top:-3px;
+
+}
+
+.checkContainer:has(input:checked){
+	 background:rgba(50,57,240,1);
+	 color:white;
+	
+}
+
+
+
+
+.customCheck{
+    width:20px;
+    height:20px;
+	background-color: rgba(255,255,255,0.3);
+    border:2px solid rgba(200,200,200,0.5);
+    border-radius:0.5vw; 
+    display:inline-block;
+    position:relative;
+	left: 10px;
+	transition: 0.2s;
+}
+
+
+.PayFont{
+	
+font-size: 18px;
+font-weight: 400;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: white;
+position:relative;
+top:-0.15vh;
+left: 20px;
+	
+}
+
+
+
+
+.paynow{
+background-color: rgba(40,140,47,1);
+width: 26vw;
+height: 6vh;
+position: relative;
+top: 2vh;
+left: 2vw;
+border-radius: 4vw;
+box-shadow:  0px 0px 5px rgba(0,0,0,0.8);
+border: none;
+overflow: hidden;
+text-decoration:none;
+
+
+
+font-size: 25px;
+font-weight: 700;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: white;
+
+
+	
+}
+
+.paynow:hover{
+	
+background-color: rgba(10,80,17,1);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+	
+
+body{
+background-color: rgb(50,50,50);
+background-image: url("../images/background.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.BoldFont2{
+	
+font-size: 15px;
+font-weight: 600;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: white;
+position:relative;
+top:1vh;
+	
+}
+
+
+.bottom{
+background-color: rgb(50,57,240);
+
+width: 100vw;
+height: 5vh;
+position: fixed;
+top: 95vh;
+left: 0%;
+border-radius: 1%;
+box-shadow:  0px 0px 30px rgba(0,0,0,1);
+
+}
+
+.portal2{
+background-color: rgba(255,255,255,0.9);
+backdrop-filter: blur(5px);
+width: 98vw;
+height: auto;
+position: absolute;
+top: 10.5vh;
+left: 1vw;
+border-radius: 1vw;
+box-shadow:  0px 0px 5px rgba(0,0,0,1);
+overflow: hidden;
+}
+
+
+.topper{
+background-color: rgb(50,57,240);
+
+width: 100vw;
+height: 10vh;
+position: absolute;
+top: 0vh;
+left: 0vw;
+border-radius: 1%;
+box-shadow:  0px 0px 50px rgba(0,0,0,1);
+display: inline-block;
+
+}
+
+
+.BoldFont{
+	
+font-size: 17px;
+font-weight: 800;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: rgb(255,255,250);
+position:relative;
+top:-7%;
+	
+}
+
+.jaba{
+position: relative;
+top:7%;	
+left:0vw;
+height: 70vh;
+
+	
+}
+
+
+.middle{
+max-width:115%;
+max-height: 115%;
+object-fit: contain;
+display: inline-block;
+}
+
+
+
+.circleimg1{
+	
+background-color: rgb(255,255,255);
+
+width: 9vh;
+height: 9vh;
+top:-0.4vh;
+position: relative;
+border-radius: 40vw;
+box-shadow:  0px 0px 5px rgba(0,0,0,1);
+overflow: hidden;
+display: inline-block;
+
+}
+
+.circleimg1:hover{
+	background-color: rgb(150,150,150);
+}
+
+
+.BoldFont1{
+	
+font-size: 20px;
+font-weight: 600;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,150);
+
+	
+}
+
+
+
+
+.card{
+background-color: rgba(250,250,250,0.4);
+backdrop-filter: blur(5px);
+width: 18vw;
+height: 50vh;
+position: relative;
+top: 7vh;
+left: 2vw;
+border-radius: 4%;
+box-shadow:  0px 0px 50px rgba(0,0,0,0.8);
+border: none;
+overflow: hidden;
+text-decoration:none;
+}
+
+
+.card:hover{
+background-color: rgba(70,100,250,0.5);
+	
+}
+
+
+.fonter12{
+position: relative;
+top: 1vh;	
+color: white;
+font-size: 14px;
+font-weight: 400;
+font-family: Berlin Sans FB,arial;
+line-height: 1.7;
+
+	
+}
+
+
+
+.fonter{
+position: relative;
+top: 1vh;	
+color: black;
+font-size: 1vw;
+font-weight: 300;
+font-family: Berlin Sans FB,arial;
+line-height: 1.7;
+
+	
+}
+
+
+
+.adjust0{
+position: absolute;
+left: 4.75vw;
+top: 13vh;
+	
+}
+
+.adjust{
+position: absolute;
+left: 27.25vw;
+top: 13vh;
+	
+}
+
+.adjust1{
+position: absolute;
+left: 49.75vw;
+top: 13vh;
+	
+}
+
+
+.adjust2{
+position: absolute;
+left: 72.25vw;
+top: 13vh;
+	
+}
+
+.circleimg{
+	
+background-color: rgb(250,250,250);
+
+width: 8vw;
+height: 8vw;
+position: relative;
+top: 5vh;
+left: 4.5vw;
+border-radius: 40vw;
+box-shadow:  0px 0px 50px rgba(0,0,0,1),0px 0px 50px rgba(0,0,0,1);
+overflow: hidden;
+
+}
+
+.noue{
+text-decoration:none;
+}
+
+
+.cardhead{
+background-color: rgb(50,57,240);
+width: 18.3vw;
+height: 7vh;
+position: relative;
+top: -1.2vh;
+left: -0.35vw;
+border-radius: 4%;
+box-shadow:  0px 0px 50px rgba(0,0,0,0.8);
+border: none;	
+
+	
+}
+
+
+
+
+
+.summary{
+background-color: rgba(255,255,255,0.8);
+backdrop-filter: blur(0px);
+width: 97%;
+height: auto;
+position: relative;
+top: 10px;
+left: 2%;
+border-radius: 1%;
+box-shadow:  0px 0px 5px rgba(0,0,0,1);
+overflow: auto;
+
+
+
+
+	
+font-size: 14px;
+font-weight: 400;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,150);
+
+	
+}
+
+
+
+.summary1{
+
+font-size: 14px;
+font-weight: 400;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,150);
+
+	
+}
+
+.push{
+	
+position:relative;
+left: 10px;
+	
+}
+
+
+.payment{
+	
+background-color: rgba(255,255,255,0.5);
+backdrop-filter: blur(2px);
+width: 97%;
+height: auto;
+position: relative;
+top: 24px;
+left: 2%;
+border-radius: 5%;
+box-shadow:  0px 0px 5px rgba(0,0,0,1);
+overflow: auto;
+min-height:480px;
+
+	
+font-size: 20px;
+font-weight: 400;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,150);
+
+	
+	
+}
+
+
+.biggerFont{
+	
+font-size: 28px;
+font-weight: 700;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: white;
+
+padding: 10px;
+
+background-color: rgb(50,57,240);
+	
+}
+
+
+
+.checkContainer{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+    gap:8px;
+	position:relative;
+	left: 2.5vw;
+
+	
+background-color: rgba(50,57,240,0.5);
+width: 94%;
+height: 35px;
+position: relative;
+top: 15px;
+left: 3%;
+border-radius: 4vw;
+box-shadow:  0px 0px 5px rgba(0,0,0,0.8);
+border: none;
+overflow: hidden;
+text-decoration:none;
+}
+
+.checkContainer input{
+    display:none;
+}
+
+
+.checkContainer input:checked + .customCheck{
+    background:#0A4FAF;
+	
+}
+
+.checkContainer input:checked + .customCheck::after{
+    content:"\2714";
+    color:white;
+    position:absolute;
+     font-size:18px;
+    left:3px;
+    top:-3px;
+
+}
+
+.checkContainer:has(input:checked){
+	 background:rgba(50,57,240,1);
+	 color:white;
+	
+}
+
+
+
+
+.customCheck{
+    width:20px;
+    height:20px;
+	background-color: rgba(255,255,255,0.3);
+    border:2px solid rgba(200,200,200,0.5);
+    border-radius:0.5vw; 
+    display:inline-block;
+    position:relative;
+	left: 10px;
+	transition: 0.2s;
+}
+
+
+.PayFont{
+	
+font-size: 18px;
+font-weight: 400;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: white;
+position:relative;
+top:-0.15vh;
+left: 20px;
+	
+}
+
+
+
+
+.paynow{
+background-color: rgba(40,140,47,1);
+width: 80%;
+height: 35px;
+position: relative;
+top: 45px;
+left: 10%;
+border-radius: 4vw;
+box-shadow:  0px 0px 5px rgba(0,0,0,0.8);
+border: none;
+overflow: hidden;
+text-decoration:none;
+
+
+
+font-size: 25px;
+font-weight: 700;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: white;
+
+
+	
+}
+
+.paynow:hover{
+	
+background-color: rgba(10,80,17,1);
+	
+}
+	
+	
+	
+	
+}

@@ -1,0 +1,177 @@
+:root {
+    --primary-blue: #1a237e;
+    --secondary-blue: #283593;
+    --accent-green: #2e7d32;
+    --text-dark: #333;
+    --bg-light: #f4f7f9;
+}
+
+
+/* Force headers and specific containers to take up a full row */
+h3, #director-container, .full-row {
+    grid-column: 1 / -1; /* This forces it to span all columns */
+    clear: both;
+}
+
+/* Password Strength Indicator */
+#password-strength {
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.strength-weak { color: #d32f2f; }
+.strength-medium { color: #f57c00; }
+.strength-strong { color: #388e3c; }
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: url("../images/background.png") no-repeat center center fixed;
+    background-size: cover;
+    color: var(--text-dark);
+}
+
+/* Main Container */
+.blocky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.4); /* Darken background for contrast */
+}
+
+/* The Card */
+.formspace {
+    background: #ffffff;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+/* Header Section */
+.blueheader {
+    background: var(--primary-blue);
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.BoldFont0 {
+    font-size: 28px;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Form Styling */
+.restrita {
+    padding: 40px;
+}
+
+h3 {
+    color: var(--primary-blue);
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* Modern Input Layout */
+.BoldFont1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    position: static; /* Remove your relative/absolute positioning */
+}
+
+.edits {
+    margin-top: 8px;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    width: 100%; /* Full width of its container */
+    background: #fafafa;
+    box-sizing: border-box;
+}
+
+.edits:focus {
+    outline: none;
+    border-color: var(--secondary-blue);
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba(26, 35, 126, 0.1);
+}
+
+/* Director Blocks */
+.director-block {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-blue);
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+#addDirectorBtn {
+    background: #fff;
+    color: var(--primary-blue);
+    border: 2px dashed var(--primary-blue);
+    border-radius: 8px;
+    width: 100%;
+    font-weight: 700;
+    transition: all 0.3s;
+}
+
+#addDirectorBtn:hover {
+    background: #e8eaf6;
+}
+
+.savecontinue {
+    background: var(--accent-green);
+    color: white;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.savecontinue:hover {
+    background: #1b5e20;
+    transform: translateY(-2px);
+}
+
+
+
+
+
+/* Responsive Grid for Inputs (2 columns on Desktop) */
+@media (min-width: 768px) {
+    #registration-form > div, #registration-form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+		 display: flex;
+        flex-direction: column;
+    }
+    
+    h3, #director-container, #addDirectorBtn, .director-block {
+        grid-column: span 2;
+    }
+	
+	 
+}

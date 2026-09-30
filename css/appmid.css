@@ -1,0 +1,523 @@
+body{
+background-color: rgb(50,50,50);
+background-image: url("../images/background.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+
+
+.dashtop{
+display: flex;
+position:fixed;
+width:100vw;
+height: 65px;
+top:0vh;
+left:0vw;
+background-color: rgb(50,57,240);
+
+background-image: linear-gradient(to bottom,rgb(27,50,185), rgb(67,90,255),rgb(27,50,185) ),
+					linear-gradient(to right,rgb(27,50,185), rgb(67,90,255),rgb(27,50,185) );
+
+
+background-blend-mode: multiply;
+
+z-index: 1000;
+
+box-shadow: 0px 0px 20px rgba(0,0,0,0.8);	
+	
+}
+
+.logo{
+text-decoration:none;
+background-color:white;
+position:relative;
+width: 14vw;
+height: 65px;
+
+}
+
+.logofont{
+font-size: 20px;
+font-weight: 600;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: black;
+position:relative;
+left: 30px;
+top:-25px;
+	
+}
+
+.logo:hover{
+	
+cursor:pointer;	
+	
+}
+
+.dashmenu{
+display:flex;
+font-size: 20px;
+font-weight: 400;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: white;
+position:relative;
+text-decoration:none;
+top:0px;
+margin: 7px;
+background:none;
+border:none;
+	
+}
+
+
+
+ .logo:hover { opacity: 0.8; }
+		 .logout:hover { opacity: 0.7; }
+		
+        .dashmenu:hover { opacity: 0.7; }
+
+
+.username {
+    margin-left: auto; 
+    text-decoration: none;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+  
+    color: white;
+}
+
+
+.username:hover{
+	
+cursor:pointer;
+	
+}
+
+.logout {
+    font-size: 22px;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 6px 20px 6px 10px; 
+	
+}
+
+
+
+.semi{
+	
+background-color:rgba(255,255,255,0.2);
+position:relative;
+width:100vw;
+height:auto;
+top:9vh;
+left:-0.5vw;
+backdrop-filter: blur(6px);
+
+}
+
+
+.middle{
+    width: 80%; 
+	min-height:70vh;
+    
+	position:relative;
+	left:10%;
+    background-color: rgba(255,255,255,0.5); 
+    padding: 20px;
+}
+
+.note{
+background-image: linear-gradient(to bottom,rgba(27,50,185,0.2), rgba(67,90,255,0.8),rgba(27,50,185,0.2) ),
+					linear-gradient(to right,rgba(27,50,185,0.2), rgba(67,90,255,0.8),rgba(27,50,185,0.2) );
+
+
+background-blend-mode: multiply;
+width:100%;
+height:74vh;
+position:relative;
+
+margin-left: none;    
+    margin-right: none;   
+    display:block;
+	border-radius: 20px;
+
+background-color: rgba(0, 0, 0, 0.65);
+
+    
+    
+background-image: url("../images/doodle.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;	
+}
+
+.whitefont{
+	
+	font-size: 50px;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+	font-weight:600;
+    text-decoration: none;
+	
+}
+
+
+
+.card{
+background-color: rgba(250,250,250,0.4);
+width: 230px;
+height: 230px;
+position: relative;
+
+border-radius: 150px;
+box-shadow:  0px 0px 10px rgba(0,0,0,0.8);
+border: none;
+overflow: hidden;
+text-decoration:none;
+
+font-size: 70px;
+font-weight:600;
+font-family: "Segoe UI", sans-serif;
+display: inline-block;
+margin: 0px 0px 10px 0px;
+overflow:hidden;
+color:white;
+}
+
+
+.card:hover{
+background-color: rgba(100,100,250,0.7);	
+	
+}
+
+
+
+.hollow-circle {
+    width: 220px;
+    height: 220px;
+	position:relative;
+	left:-1.5px;
+	top:-1.5px;
+    border: 7px solid rgb(0,0,255); 
+    border-radius: 50%;        
+    background-color: transparent; 
+}
+
+
+
+
+.hollow-red {
+    width: 220px;
+    height: 220px;
+	position:relative;
+	left:-1.5px;
+	top:-1.5px;
+    border: 7px solid rgb(255,0,0); 
+    border-radius: 50%;        
+    background-color: transparent; 
+}
+
+
+
+.hollow-green {
+    width: 220px;
+    height: 220px;
+	position:relative;
+	left:-1.5px;
+	top:-1.5px;
+    border: 7px solid rgb(0,255,0); 
+    border-radius: 50%;        
+    background-color: transparent; 
+}
+
+.cardlow{
+	
+background-color:rgb(0,0,0,0.8);
+width:100%;
+height:70px;
+top:73%;
+position:absolute;
+}
+
+
+
+.whitefont1{
+	
+	font-size: 17px;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+    text-decoration: none;
+	
+}
+
+
+.buttons{
+background-image: linear-gradient(to bottom,rgba(27,50,185,0.5), rgb(67,90,255),rgba(27,50,185,0.5) ),
+					linear-gradient(to right,rgba(27,50,185,0.5), rgb(67,90,255),rgba(27,50,185,0.5) );
+
+
+background-blend-mode: multiply;
+
+width: 17%;
+height:30px;
+border:none;
+font-size: 17px;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+    text-decoration: none;
+	border-radius: 5px;
+}
+.buttons:hover{
+	
+background-image: linear-gradient(to bottom,rgb(0,20,105), rgb(17,30,155),rgb(2,20,105) ),
+					linear-gradient(to right,rgb(0,20,105), rgb(17,30,155),rgb(2,20,105) );
+
+
+background-blend-mode: multiply;
+	
+}
+
+.errormsg{
+
+background-image: linear-gradient(to bottom,rgba(185,50,27,0.3), rgba(255,90,67,0.6),rgba(185,50,27,0.3) ),
+					linear-gradient(to right,rgba(185,50,27,0.3), rgba(255,90,27,0.6),rgba(185,50,27,0.3) );
+
+
+background-blend-mode: multiply;	
+
+height: 47px;
+width: 95%;
+position: relative;
+left: 2.5%;
+
+
+	font-size: 20px;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+    text-decoration: none;
+	border-radius: 5px;
+	overflow:hidden;
+	
+	
+}
+
+
+
+.infomsg{
+
+background-image: linear-gradient(to bottom,rgba(185,100,27,0.3), rgba(255,190,67,0.6),rgba(185,100,27,0.3) ),
+					linear-gradient(to right,rgba(185,100,27,0.3), rgba(255,190,27,0.6),rgba(185,100,27,0.3) );
+
+
+background-blend-mode: multiply;	
+
+height: 47px;
+width: 95%;
+position: relative;
+left: 2.5%;
+
+
+	font-size: 20px;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+    text-decoration: none;
+	border-radius: 5px;
+	overflow:hidden;
+	
+	
+}
+
+.container{
+position:relative;
+left:2.5%;
+	
+}
+
+
+
+.close{
+background-image: linear-gradient(to bottom,rgb(185,50,27), rgb(255,90,67),rgb(185,50,27) ),
+					linear-gradient(to right,rgb(185,50,27), rgb(255,90,67),rgb(185,50,27) );
+
+
+background-blend-mode: multiply;
+left:93%;
+width: 7%;
+height:30px;
+border:none;
+font-size: 17px;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+    text-decoration: none;
+	border-radius: 5px;
+	margin: 10px;
+}
+.close:hover{
+	
+background-image: linear-gradient(to bottom,rgb(105,20,0), rgb(155,30,17),rgb(105,20,5) ),
+					linear-gradient(to right,rgb(105,20,0), rgb(155,30,17),rgb(105,20,5) );
+
+
+background-blend-mode: multiply;
+	
+}
+
+
+.msghead{
+	
+font-size: 30px;
+    font-family: "Segoe UI", sans-serif;
+    color: rgb(30,30,30);
+    text-decoration: none;
+	border-radius: 5px;
+	overflow:hidden;	
+	
+}
+
+
+
+.head1{
+	
+background-color: rgba(200,200,200,1);
+width: 40%;
+height: 30px;
+display:inline-text;	
+	
+}
+
+
+
+
+
+
+
+.data-table {
+    width: 70%;
+    border-collapse: collapse; /* Prevents double borders */
+    margin: 20px 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+	text-decoration:none;
+}
+
+.data-table th, .data-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table th {
+    background-color: rgb(27, 50, 185); /* Matches your header color */
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.data-table tr:hover {
+    background-color: #f5f5f5; /* Highlights row on mouse hover */
+}
+
+
+
+
+
+
+
+
+.data-table1 {
+    width: 28%;
+	
+    border-collapse: collapse; /* Prevents double borders */
+    margin: 20px 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+	text-decoration:none;
+}
+
+.data-table1 th, .data-table1 td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table1 th {
+    background-color: rgb(27, 50, 240);
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.data-table1 tr:hover {
+    background-color: rgb(150,150,150); 
+}
+
+
+
+.tables-wrapper {
+    display: flex;        
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 95%;
+    gap: 2%;           
+}
+
+
+.data-table {
+    width: 80% !important; 
+    margin: 0; 
+}
+
+.data-table1 {
+    width: 20% !important;
+    margin: 0;
+}
+
+
+
+
+.BoldFont2{
+	
+font-size: 18px;
+font-weight: 600;
+font-family: sans-serif, Berlin Sans FB,arial;
+color: white;
+position:relative;
+top:1vh;
+	
+}
+
+
+.bottom{
+background-color: rgb(50,57,240);
+
+width: 99.9%;
+height: 35px;
+position: relative;
+top:7px;
+left: 0vw;
+border-radius: 1%;
+box-shadow:  0px 0px 50px rgba(0,0,0,1);
+
+}
+
+
+.read-btn {
+    background-color: rgb(27, 50, 185);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.read-btn:hover {
+    background-color: #0d1a7a;
+}

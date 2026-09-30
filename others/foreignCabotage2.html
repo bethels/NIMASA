@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<head>
+<title>NIMASA Cabotage waiver: FOREIGN-Continue</title>
+<link rel="stylesheet" href="../css/style2.css">
+
+<meta name="viewport" content="width=device-width" initial-scale="1.0">
+
+</head>
+
+<html>
+<body>
+
+
+<input type="file" id="fileInput" accept=".pdf,.doc,.docx" style="display:none">
+
+<div class="blocky"> 
+
+<div class="formspace">
+
+<center>
+<div class="blueheader">
+<p class="BoldFont0"><br/>NIMASA|Nigerian Maritime Administration and Safety Agency
+<br/><pre> </pre></p>
+</div>
+<br/>
+<img src="../images/logo.png" style="width: 10vw; ">
+<center class="BoldFont">
+CABOTAGE CHECKLIST FOR PROCESSING OF WAIVER APPLICATION<br/>
+VESSEL CATEGORY: FOREIGN
+</center>
+<br/><br/>
+
+</center>
+
+
+<p class="BoldFont1">
+<b class="BoldFontZ">*</b> Append explanatory note where type of vessel does not support Cadet training 
+<br/>
+<b class="BoldFontZ">**</b> Attached letter from Dry-dock to proof unavailability of berth within statutory docking window.
+</p>
+
+
+
+<div class="blueline">
+<p class="BoldFont2">UPLOAD DOCUMENTS</p>
+ </div>
+ <br/>
+ 
+ <p class="BoldFont1">Company’s Current Tax Clearance Certificates (Last 3-years depending on years in business) :  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="CWF"></span>
+ <button class="uploads" onclick="openFilePicker()">upload</button> 
+ <button class="removes" onclick="RemoveFile()">remove</button> <br/></p>
+
+
+<p class="BoldFont1">Evidence of Registration as a Shipping Company with NIMASA:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="CAF"></span>
+ <button class="uploads" onclick="OpenCAF()">upload</button> 
+ <button class="removes" onclick="RemoveCAF()">remove</button> <br/></p>
+
+
+
+<p class="BoldFont1">Evidence of Payment of Sea Protection Levy (SPL) NOTE: Exempted for vessels less than 100 GRT:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="BOS"></span>
+ <button class="uploads" onclick="OpenBOS()">upload</button> 
+ <button class="removes" onclick="RemoveBOS()">remove</button> <br/></p>
+
+
+
+<p class="BoldFont1">Copy of survey report OR Temporary Importation document from customs for newly imported vessel(s):  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="EOCNSRC"></span>
+
+ <button class="uploads" onclick="OpenEOCNSRC()">upload</button> 
+ <button class="removes" onclick="RemoveEOCNSRC()">remove</button> <br/></p>
+
+
+
+
+
+
+
+<p class="BoldFont1">Evidence of relationship between the Charters and the Owners of the Vessel (Charterer Party Agreement):  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="BC"></span>
+ <button class="uploads" onclick="openBC()">upload</button> 
+ <button class="removes" onclick="RemoveBC()">remove</button> <br/></p>
+
+
+
+
+<p class="BoldFont1">Evidence of pre-qualification and Tender / Contract for engagement of Vessel for Cabotage:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+ <span class="UploadData" id="ATPICTF"></span>
+ <button class="uploads" onclick="openATPICTF()">upload</button> 
+ <button class="removes" onclick="RemoveATPICTF()">remove</button> <br/></p>
+
+
+
+
+<p class="BoldFont1">Copy of Current Class Certificate of Vessel with endorsement where necessary:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="CLDF"></span>
+ <button class="uploads" onclick="openCLDF()">upload</button> 
+ <button class="removes" onclick="RemoveCLDF()">remove</button> <br/></p>
+
+
+
+
+<p class="BoldFont1">Copy of International Tonnage Certificate:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="DOF"></span>
+ <button class="uploads" onclick="openDOF()">upload</button> 
+ <button class="removes" onclick="RemoveDOF()">remove</button> <br/></p>
+
+
+<p class="BoldFont1">International Safety Management Certificate:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="DCLWOTCLHP"></span>
+ <button class="uploads" onclick="openDCLWOTCLHP()">upload</button> 
+ <button class="removes" onclick="RemoveDCLWOTCLHP()">remove</button> <br/></p>
+
+<p class="BoldFont1"> Copy of Vessel’s Current Q88 (where applicable):  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+ <span class="UploadData" id="DOE"></span>
+ <button class="uploads" onclick="openDOE()">upload</button> 
+ <button class="removes" onclick="RemoveDOE()">remove</button> <br/></p>
+
+
+
+
+<p class="BoldFont1">Copy of Vessel’s Insurance Policy (P&I):  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="CMSMC"></span>
+ <button class="uploads" onclick="openCMSMC()">upload</button> 
+ <button class="removes" onclick="RemoveCMSMC()">remove</button> <br/></p>
+
+
+
+
+<!-- other required documents -->
+<br/>
+<div class="blueline">
+<p class="BoldFont2">OTHER DOCUMENTS</p>
+ </div>
+ <br/>
+ 
+ 
+ 
+
+
+
+
+
+
+
+<p class="BoldFont1">Evidence of 2% Surcharge Payment (For Renewal):  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="CMLDF"></span>
+ <button class="uploads" onclick="openCMLDF()">upload</button> 
+ <button class="removes" onclick="RemoveCMLDF()">remove</button> <br/></p>
+
+
+
+
+
+
+
+<p class="BoldFont1"> Copy of last Waiver Certificate or receipt for waiver processing fees :  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="CLWCRWPF"></span>
+ <button class="uploads" onclick="openCLWCRWPF()">upload</button> 
+ <button class="removes" onclick="RemoveCLWCRWPF()">remove</button> <br/></p>
+
+
+
+<p class="BoldFont1"><b class="BoldFontZ">*</b>Evidence of active Training of Nigerian Cadet (For Renewal):  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="CSROTIDFCFNIV"></span>
+ <button class="uploads" onclick="openCSROTIDFCFNIV()">upload</button> 
+ <button class="removes" onclick="RemoveCSROTIDFCFNIV()">remove</button> <br/></p>
+
+
+
+<p class="BoldFont1"><b class="BoldFontZ">**</b>Evidence of Dry-docking in Nigeria or letter attesting to non-availability of docking space 
+within window or in ability of available dry-dock to handle the class of vessel (For Renewal) :  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="EDNLANADS"></span>
+ <button class="uploads" onclick="openEDNLANADS()">upload</button> 
+ <button class="removes" onclick="RemoveEDNLANADS()">remove</button> <br/></p>
+ 
+ 
+
+<p class="BoldFont1">Historical cargo operations data (Last five loading and discharging ports):  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <span class="UploadData" id="HCOD"></span>
+ <button class="uploads" onclick="openHCOD()">upload</button> 
+ <button class="removes" onclick="RemoveHCOD()">remove</button> <br/></p>
+
+
+
+
+<br/><br/>
+
+<center>
+<a href="foreignfinish.html"><button class="savecontinue">Save and Continue</button></a>
+<br/><br/>
+<a href="foreigncabotage.html"><button class="backs">Previous</button></a>
+<br/>
+<br/>
+&nbsp
+
+</center>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+<script src="../JS/foreigncabotage2.js"></script>
+</body>
+</html>

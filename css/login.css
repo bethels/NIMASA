@@ -1,0 +1,487 @@
+@media (min-width:768px){
+
+body{
+background-color: rgb(50,50,50);
+background-image: url("../images/background.png");
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+.circleimg{
+	
+background-color: rgb(250,250,250);
+
+width: 7vw;
+height: 7vw;
+position: relative;
+top: 1vh;
+border-radius: 40vw;
+box-shadow:  0px 0px 10px rgba(0,0,0,1);
+overflow: hidden;
+
+}
+
+.circleimg:hover{
+	
+background-color: rgb(100,100,100);	
+}
+
+.pusher{
+	
+position:absolute;
+top:1vh;
+	
+}
+
+
+.BoldFont0{
+	
+font-size: 33px;
+font-weight: 600;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,100);
+position: relative;
+
+	
+}
+
+.BoldFont1{
+	
+font-size: 27px;
+font-weight: 700;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,100);
+position: relative;
+
+	
+}
+
+
+.BoldFont2{
+	
+font-size: 18px;
+font-weight: 500;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,100);
+position: relative;
+text-decoration:none;
+
+	
+}
+
+
+.BoldFont3{
+	
+font-size: 18px;
+font-weight: 700;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,100);
+position: relative;
+text-decoration:none;
+
+	
+}
+
+
+.blurry{
+background-color: rgba(255,255,255,0.4);
+backdrop-filter: blur(6px);
+position: absolute;
+width: 40vw;
+height: 55vh;
+top:33vh;
+left: 30vw;
+border-radius: 3vw;
+border: 1px solid rgba(255,255,255,0.5);
+	
+}
+
+
+.edit{
+	
+background-color: rgba(255,255,255,0.5);
+width: 35vw;
+position: relative;
+left: 2.5vw;
+border-radius: 0.6vw;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+height: 5.5vh;
+border:none;
+
+font-size: 20px;
+font-weight: 400;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+	
+}
+
+
+
+
+
+.button{
+	
+background-color: rgb(57,70,240);
+width: 35vw;
+position: relative;
+left: 2.5vw;
+border-radius: 2vw;
+box-shadow: 0px 0px 5px rgba(0,0,0,1);
+height: 6vh;
+border:none;
+
+font-size: 20px;
+font-weight: 400;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: white;
+
+background-image: linear-gradient(to bottom,rgb(27,50,185), rgb(67,90,255),rgb(27,50,185) ),
+					linear-gradient(to right,rgb(27,50,185), rgb(67,90,255),rgb(27,50,185) );
+
+
+background-blend-mode: multiply;
+	
+}
+
+.button:hover{
+background-color: rgb(27,50,180);	
+	
+}
+
+.topshift{
+
+position: absolute;
+top: 39vh;	
+	
+}
+
+
+
+
+
+
+
+.checkContainer{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+    gap:8px;
+	position:absolute;
+	left: 2.5vw;
+	top:32vh;
+	width: 15vw;
+}
+
+.checkContainer input{
+    display:none;
+}
+
+.customCheck{
+    width:2vw;
+    height:2vw;
+	background-color: rgba(255,255,255,0.3);
+    border:2px solid rgba(200,200,200,0.5);
+    border-radius:0.5vw; 
+    display:inline-block;
+    position:relative;
+}
+
+.checkContainer input:checked + .customCheck{
+    background:#0A4FAF;
+}
+
+.checkContainer input:checked + .customCheck::after{
+    content:"\2714";
+    color:white;
+    position:absolute;
+    font-size:1.8vw;
+    left:0.3vw;
+    top:-0.3vw;
+}
+
+.real{
+position:relative;	
+left:26vw;
+}
+
+.righter{
+position:absolute;
+top:32vh;
+text-decoration:none;
+	
+}
+
+
+.dropper{
+	position:absolute;
+	top:45vh;
+	left: 40%;
+	transform: translateX(-30%);
+	
+}
+
+.dropit{
+position:absolute;
+top: 16vh;
+	
+}
+
+.dropit2{
+position:absolute;
+top: 24vh;
+	
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+	
+	body{
+background-color: rgb(50,50,50);
+background-image: url("../images/background.png");
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+.circleimg{
+	
+background-color: rgb(250,250,250);
+
+width: 15vw;
+height: 15vw;
+position: relative;
+top: 1vh;
+border-radius: 40vw;
+box-shadow:  0px 0px 10px rgba(0,0,0,1);
+overflow: hidden;
+
+}
+
+.circleimg:hover{
+	
+background-color: rgb(100,100,100);	
+}
+
+.pusher{
+	
+position:absolute;
+top:1vh;
+	
+}
+
+
+.BoldFont0{
+	
+font-size: 25px;
+font-weight: 600;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,100);
+position: relative;
+
+	
+}
+
+.BoldFont1{
+	
+font-size: 27px;
+font-weight: 700;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,100);
+position: relative;
+
+	
+}
+
+
+.BoldFont2{
+	
+font-size: 18px;
+font-weight: 500;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,100);
+position: relative;
+text-decoration:none;
+
+	
+}
+
+
+.BoldFont3{
+	
+font-size: 18px;
+font-weight: 700;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: rgb(20,20,100);
+position: relative;
+text-decoration:none;
+
+	
+}
+
+
+.blurry{
+background-color: rgba(255,255,255,0.4);
+backdrop-filter: blur(6px);
+position: absolute;
+width: 90vw;
+height: 40vh;
+top:33vh;
+left: 5vw;
+border-radius: 3vw;
+border: 1px solid rgba(255,255,255,0.5);
+	
+}
+
+
+.edit{
+	
+background-color: rgba(255,255,255,0.5);
+width: 84vw;
+position: relative;
+left: 2.5vw;
+border-radius: 0.6vw;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+height: 5.5vh;
+border:none;
+
+
+font-size: 20px;
+font-weight: 400;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+	
+}
+
+
+
+
+
+.button{
+	
+background-color: rgb(57,70,240);
+width: 84vw;
+position: relative;
+left: 2.5vw;
+border-radius: 2vw;
+box-shadow: 0px 0px 5px rgba(0,0,0,1);
+height: 5.5vh;
+border:none;
+
+font-size: 20px;
+font-weight: 400;
+font-family: segoe ui, sans-serif, Berlin Sans FB,arial;
+color: white;
+
+background-image: linear-gradient(to bottom,rgb(27,50,185), rgb(67,90,255),rgb(27,50,185) ),
+					linear-gradient(to right,rgb(27,50,185), rgb(67,90,255),rgb(27,50,185) );
+
+
+background-blend-mode: multiply;
+	
+}
+
+.button:hover{
+background-color: rgb(27,50,180);	
+	
+}
+
+.topshift{
+
+position: absolute;
+top: 30vh;	
+	
+}
+
+
+
+
+
+
+
+.checkContainer{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+    gap:8px;
+	position:absolute;
+	left: 2.5vw;
+	top:25vh;
+	width: 38vw;
+}
+
+.checkContainer input{
+    display:none;
+}
+
+.customCheck{
+    width:5vw;
+    height:5vw;
+	background-color: rgba(255,255,255,0.3);
+    border:2px solid rgba(200,200,200,0.5);
+    border-radius:0.5vw; 
+    display:inline-block;
+    position:relative;
+}
+
+.checkContainer input:checked + .customCheck{
+    background:#0A4FAF;
+}
+
+.checkContainer input:checked + .customCheck::after{
+    content:"\2714";
+    color:white;
+    position:absolute;
+    font-size:4.5vw;
+    left:0.3vw;
+    top:-0.3vw;
+}
+
+.real{
+position:relative;	
+left:47vw;
+}
+
+.righter{
+position:absolute;
+top:25vh;
+text-decoration:none;
+	
+}
+
+
+.dropper{
+	position:absolute;
+	top:35vh;
+	left: 10%;
+	transform: translateX(0%);
+	
+}
+
+.dropit{
+position:absolute;
+top: 10vh;
+	
+}
+
+.dropit2{
+position:absolute;
+top: 18vh;
+	
+}
+
+
+	
+	
+}
