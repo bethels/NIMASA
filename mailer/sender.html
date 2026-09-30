@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIMASA Mailer System</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f4f4; padding: 20px; }
+        .container { max-width: 500px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin: auto; }
+        input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { width: 100%; padding: 10px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        #status { margin-top: 15px; font-weight: bold; text-align: center; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>NIMASA Mailer</h2>
+    <input type="email" id="sender_email" placeholder="Your Gmail (Sender)" required>
+    <input type="password" id="passkey" placeholder="16-Digit App Password" required>
+    <input type="email" id="receiver_email" placeholder="Recipient Email" required>
+    <input type="text" id="subject" placeholder="Subject Line" required>
+    <textarea id="message" rows="5" placeholder="Write your message here..."></textarea>
+    <button onclick="sendMail()">Send Email</button>
+    <div id="status"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
